@@ -107,7 +107,7 @@ if ( get_field( 'sidebar_templates', 'options' ) ) {
 									}
 									
 									?>	
-batatinha
+
 									<?php if($conta > 0): ?>
 									<div class="barra">
 										<div class="progresso" style="width:<?php print $conta;?>%"></div>
