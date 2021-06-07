@@ -1,0 +1,2149 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: King\n"
+"POT-Creation-Date: 2020-05-25 21:21+0300\n"
+"PO-Revision-Date: 2020-05-25 21:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:25
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: amp/amp-related-posts.php:52 amp/amp-sidebar.php:15 includes/theme.php:1638
+#: taxonomy-post_format-post-format-quote.php:16
+#: template-parts/content-simple-post.php:50
+#: template-parts/content-templates/content-04.php:36
+#: template-parts/content-templates/content-parts/content-right-top.php:20
+#: template-parts/header-templates/header-parts/headnav.php:19
+#: template-parts/header-templates/header-parts/hmobile.php:27
+#: template-parts/header-templates/header-parts/leftmenu.php:20
+#: template-parts/header-templates/header-parts/submit-v2.php:24
+#: template-parts/header-templates/header-parts/submit.php:23
+#: template-parts/king-featured-posts.php:92
+#: template-parts/post-templates/single-post-template-1.php:41
+#: template-parts/post-templates/single-post-template-2.php:41
+#: template-parts/post-templates/single-post-template-3.php:49
+#: template-parts/post-templates/single-post-template-4.php:49
+#: template-parts/post-templates/single-post-template-5.php:56
+#: template-parts/post-templates/single-post-template-6.php:56
+#: template-parts/single-post.php:41
+msgid "News"
+msgstr ""
+
+#: amp/amp-related-posts.php:54 amp/amp-sidebar.php:17 includes/theme.php:1640
+#: template-parts/content-simple-post.php:52
+#: template-parts/content-templates/content-04.php:38
+#: template-parts/content-templates/content-parts/content-right-top.php:22
+#: template-parts/header-templates/header-parts/headnav.php:21
+#: template-parts/header-templates/header-parts/hmobile.php:29
+#: template-parts/header-templates/header-parts/leftmenu.php:22
+#: template-parts/header-templates/header-parts/submit-v2.php:27
+#: template-parts/header-templates/header-parts/submit.php:26
+#: template-parts/king-featured-posts.php:94
+#: template-parts/post-templates/single-video-template-1.php:91
+#: template-parts/post-templates/single-video-template-2.php:91
+#: template-parts/post-templates/single-video-template-3.php:92
+#: template-parts/single-video.php:90 template-submit-news.php:303
+msgid "Video"
+msgstr ""
+
+#: amp/amp-related-posts.php:56 amp/amp-sidebar.php:19 includes/theme.php:1642
+#: template-parts/content-simple-post.php:54
+#: template-parts/content-templates/content-04.php:40
+#: template-parts/content-templates/content-parts/content-right-top.php:24
+#: template-parts/header-templates/header-parts/headnav.php:22
+#: template-parts/header-templates/header-parts/hmobile.php:31
+#: template-parts/header-templates/header-parts/leftmenu.php:24
+#: template-parts/header-templates/header-parts/submit-v2.php:30
+#: template-parts/header-templates/header-parts/submit.php:29
+#: template-parts/king-featured-posts.php:96
+#: template-parts/post-templates/single-image-template-1.php:60
+#: template-parts/post-templates/single-image-template-2.php:61
+#: template-parts/single-image.php:41 template-submit-news.php:303
+msgid "Image"
+msgstr ""
+
+#: amp/amp-related-posts.php:69 template-parts/related-posts.php:54
+#: user-likes.php:64 user-profile.php:77
+msgid "Sorry, no posts were found"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: amp/amp-single-image.php:23 amp/amp-single-post.php:4
+#: amp/amp-single-video.php:59
+#: template-parts/post-templates/single-image-template-1.php:75
+#: template-parts/post-templates/single-image-template-2.php:76
+#: template-parts/post-templates/single-post-template-1.php:70
+#: template-parts/post-templates/single-post-template-2.php:70
+#: template-parts/post-templates/single-post-template-3.php:73
+#: template-parts/post-templates/single-post-template-4.php:73
+#: template-parts/post-templates/single-post-template-5.php:80
+#: template-parts/post-templates/single-post-template-6.php:80
+#: template-parts/post-templates/single-video-template-1.php:105
+#: template-parts/post-templates/single-video-template-2.php:105
+#: template-parts/post-templates/single-video-template-3.php:106
+#: template-parts/single-image.php:67 template-parts/single-post.php:70
+#: template-parts/single-video.php:104
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: amp/amp-single.php:39
+msgid " shares"
+msgstr ""
+
+#: amp/amp-single.php:80
+msgid "See the full version of this page"
+msgstr ""
+
+#: archive.php:55 includes/theme.php:750 includes/theme.php:802
+msgid "follow"
+msgstr ""
+
+#: archive.php:56 includes/theme.php:803
+msgid "unfollow"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:45 comments.php:67
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:48 comments.php:70
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:49 comments.php:71
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:90
+msgid "You do not have permission to write comment on this post."
+msgstr ""
+
+#: comments.php:93 template-parts/single-none.php:27 template-register.php:204
+#: template-submit-image.php:123 template-submit-news.php:201
+#: template-submit-video.php:279
+msgid "Log in "
+msgstr ""
+
+#: comments.php:94 template-parts/single-none.php:28 template-register.php:269
+#: template-submit-image.php:124 template-submit-news.php:202
+#: template-submit-video.php:280
+msgid "Register"
+msgstr ""
+
+#: functions.php:37
+msgid "Theme General Settings"
+msgstr ""
+
+#: functions.php:48
+msgid "King Settings"
+msgstr ""
+
+#: functions.php:57
+msgid "King Layout"
+msgstr ""
+
+#: functions.php:66
+msgid "King Templates"
+msgstr ""
+
+#: functions.php:75
+msgid "King Lists"
+msgstr ""
+
+#: functions.php:84
+msgid "King Customize"
+msgstr ""
+
+#: functions.php:148
+msgid "Navigation"
+msgstr ""
+
+#: functions.php:149
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:156
+msgid "Header Top Menu"
+msgstr ""
+
+#: functions.php:363 includes/theme.php:287 includes/theme.php:362
+msgid "Like"
+msgstr ""
+
+#: functions.php:364 includes/theme.php:283
+msgid "Unlike"
+msgstr ""
+
+#: functions.php:375 includes/widgets/class-king-instagram.php:85
+msgid "Follow"
+msgstr ""
+
+#: functions.php:376 includes/theme.php:746
+msgid "Unfollow"
+msgstr ""
+
+#: functions.php:533
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:535 functions.php:547 includes/woocommerce.php:191
+#: includes/woocommerce.php:200
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:545
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:557
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:559
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions.php:570
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:572
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions.php:583
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:585
+msgid "The third footer widget area"
+msgstr ""
+
+#: functions.php:596
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: functions.php:598
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: functions.php:622
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:393
+#: includes/class-tgm-plugin-activation.php:912
+#: includes/class-tgm-plugin-activation.php:2618
+#: includes/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:394
+#: includes/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:395
+#: includes/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1019
+#: includes/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1206
+#: includes/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: includes/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: includes/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#: includes/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#: includes/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/social/googleplusoauth.php:30
+msgid "Failed to validate token"
+msgstr ""
+
+#: includes/social/googleplusoauth.php:38
+msgid "Email missing"
+msgstr ""
+
+#: includes/social/googleplusoauth.php:58
+msgid "Registering new users is currently not allowed."
+msgstr ""
+
+#: includes/template-tags.php:32
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: includes/template-tags.php:37
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: includes/template-tags.php:58
+msgid " Edit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: includes/template-tags.php:63 includes/template-tags.php:79
+msgid " "
+msgstr ""
+
+#: includes/template-tags.php:65 includes/template-tags.php:81
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: includes/theme.php:411
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/theme.php:412
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/theme.php:414
+msgid "Pin this"
+msgstr ""
+
+#: includes/theme.php:416
+msgid "Email this"
+msgstr ""
+
+#: includes/theme.php:421
+msgid "Share on Tumblr"
+msgstr ""
+
+#: includes/theme.php:424
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: includes/theme.php:428
+msgid "Share on Vk"
+msgstr ""
+
+#: includes/theme.php:431
+msgid "Share on whatsapp"
+msgstr ""
+
+#: includes/theme.php:525
+msgid "Pingback:"
+msgstr ""
+
+#: includes/theme.php:525
+msgid "(Edit)"
+msgstr ""
+
+#: includes/theme.php:576
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/theme.php:592
+msgid "Reply"
+msgstr ""
+
+#: includes/theme.php:997
+msgid ""
+"Required: Please go to \"Settings > Permalink\" and select permalink format "
+"instead of the Plain. \"This step is to prevent any 404 errors !\"."
+msgstr ""
+
+#: includes/theme.php:1137
+msgid "Already reacted for this post."
+msgstr ""
+
+#: includes/theme.php:1247
+msgid "Required: You have to register King Theme !\"."
+msgstr ""
+
+#: includes/theme.php:1409
+msgid "commented on"
+msgstr ""
+
+#: includes/theme.php:1411
+msgid "replied your comment"
+msgstr ""
+
+#: includes/theme.php:1411
+msgid "See it"
+msgstr ""
+
+#: includes/theme.php:1414
+msgid "started to follow you"
+msgstr ""
+
+#: includes/theme.php:1416
+msgid "liked your post"
+msgstr ""
+
+#: includes/theme.php:1419
+msgid "Clear All"
+msgstr ""
+
+#: includes/theme.php:1423 includes/theme.php:1437
+msgid "Nothing new right now !"
+msgstr ""
+
+#: includes/theme.php:1607 king_page_users.php:18 king_page_users_2.php:18
+msgid "Users"
+msgstr ""
+
+#: includes/theme.php:1633
+#: includes/widgets/class-king-leaderboard-widget.php:137
+#: king_page_badges.php:68 king_page_badges.php:69 king_page_users.php:87
+#: king_page_users_2.php:126 template-parts/king-profile-header.php:127
+msgid "Posts"
+msgstr ""
+
+#: includes/theme.php:1647
+msgid " total results"
+msgstr ""
+
+#: includes/theme.php:1650
+msgid "No result found."
+msgstr ""
+
+#: includes/widgets/class-king-hot-widget.php:28
+msgid "Your site&#8217;s Hot Posts"
+msgstr ""
+
+#: includes/widgets/class-king-hot-widget.php:31
+msgid "King Hot Posts"
+msgstr ""
+
+#: includes/widgets/class-king-hot-widget.php:49
+msgid "Hot Posts"
+msgstr ""
+
+#: includes/widgets/class-king-hot-widget.php:148
+#: includes/widgets/class-king-leaderboard-widget.php:191
+#: includes/widgets/class-king-mostcommented-widget.php:141
+#: includes/widgets/class-king-recent-widget.php:130
+#: includes/widgets/class-king-related-widget.php:143
+#: includes/widgets/class-king-topusers-widget.php:137
+#: includes/widgets/class-king-trending-widget.php:146
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-king-hot-widget.php:151
+#: includes/widgets/class-king-recent-widget.php:133
+#: includes/widgets/class-king-related-widget.php:146
+#: includes/widgets/class-king-trending-widget.php:149
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:28
+#: includes/widgets/class-king-instagram.php:31
+msgid "King Instagram Widget"
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:64
+msgid "Can not find this username or locked"
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:108
+msgid "Can not connect to Instagram."
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:110
+msgid "Instagram did not respond"
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:118
+msgid "Instagram image"
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:180
+#: includes/widgets/class-king-youtube.php:108
+msgid "Title :"
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:184
+msgid "Username ( without @ ) :"
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:188
+msgid "Cache time ( minutes ):"
+msgstr ""
+
+#: includes/widgets/class-king-instagram.php:192
+msgid "Number of posts"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:28
+#: includes/widgets/class-king-topusers-widget.php:28
+msgid "Your site&#8217;s top users"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:31
+msgid "King Leaderboard Widget"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:49
+msgid "Leaderboard"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:131
+#: king_page_badges.php:56 king_page_badges.php:57 king_page_users.php:83
+#: king_page_users_2.php:122 template-parts/content-profilecard.php:64
+#: template-parts/king-profile-header.php:179
+#: template-parts/king-profile-header.php:256
+msgid "Followers"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:149
+#: king_page_badges.php:44 king_page_badges.php:45
+#: template-parts/header-templates/header-parts/user.php:54
+#: template-parts/king-profile-header.php:75
+#: template-parts/post-templates/single-parts/authorbox.php:37
+msgid "Points"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:194
+#: includes/widgets/class-king-topusers-widget.php:140
+msgid "Number of Users to show:"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:198
+#: includes/widgets/class-king-topusers-widget.php:144
+msgid "Order By"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:201
+msgid "User Points"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:201
+#: includes/widgets/class-king-topusers-widget.php:147
+msgid "User Posts"
+msgstr ""
+
+#: includes/widgets/class-king-leaderboard-widget.php:201
+#: includes/widgets/class-king-topusers-widget.php:147
+msgid "User Followers"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:27
+msgid "Your site&#8217;s most commented Posts."
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:30
+msgid "King Most Commented Posts"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:48
+msgid "Most Commented Posts"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:144
+msgid "Maximum number of results:"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:156
+#: includes/widgets/class-king-trending-widget.php:153
+msgid "Limit to:"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:159
+#: includes/widgets/class-king-trending-widget.php:156
+msgid "1 Day"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:159
+#: includes/widgets/class-king-trending-widget.php:156
+msgid "7 Days"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:159
+#: includes/widgets/class-king-trending-widget.php:156
+msgid "30 Days"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:159
+#: includes/widgets/class-king-trending-widget.php:156
+msgid "365 Days"
+msgstr ""
+
+#: includes/widgets/class-king-mostcommented-widget.php:159
+#: includes/widgets/class-king-trending-widget.php:156
+msgid "All Time"
+msgstr ""
+
+#: includes/widgets/class-king-recent-widget.php:28
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: includes/widgets/class-king-recent-widget.php:31
+msgid "King Recent Posts"
+msgstr ""
+
+#: includes/widgets/class-king-recent-widget.php:50
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/class-king-recent-widget.php:137
+msgid "Display post date?"
+msgstr ""
+
+#: includes/widgets/class-king-related-widget.php:28
+msgid "Your site&#8217;s Related Posts"
+msgstr ""
+
+#: includes/widgets/class-king-related-widget.php:31
+msgid "King Related Posts"
+msgstr ""
+
+#: includes/widgets/class-king-related-widget.php:49
+msgid "Related Posts"
+msgstr ""
+
+#: includes/widgets/class-king-topusers-widget.php:31
+msgid "King Topusers Widget"
+msgstr ""
+
+#: includes/widgets/class-king-topusers-widget.php:49
+msgid "Topusers Widget"
+msgstr ""
+
+#: includes/widgets/class-king-trending-widget.php:28
+msgid "Your site&#8217;s Trending Posts"
+msgstr ""
+
+#: includes/widgets/class-king-trending-widget.php:31
+msgid "King Trending Posts"
+msgstr ""
+
+#: includes/widgets/class-king-trending-widget.php:49
+msgid "trending Posts"
+msgstr ""
+
+#: includes/widgets/class-king-youtube.php:28
+#: includes/widgets/class-king-youtube.php:31
+msgid "King Youtube Widget"
+msgstr ""
+
+#: includes/widgets/class-king-youtube.php:67
+msgid "Subscribe"
+msgstr ""
+
+#: includes/widgets/class-king-youtube.php:112
+msgid "Channel Name :"
+msgstr ""
+
+#: includes/widgets/class-king-youtube.php:116
+msgid "Channel Url :"
+msgstr ""
+
+#: includes/widgets/class-king-youtube.php:120
+msgid "A Video Url :"
+msgstr ""
+
+#: includes/woocommerce.php:189
+msgid "WooCommerce Shop Sidebar"
+msgstr ""
+
+#: includes/woocommerce.php:198
+msgid "WooCommerce Single Product Sidebar"
+msgstr ""
+
+#: king_page_badges.php:18
+msgid "Badges"
+msgstr ""
+
+#: king_page_badges.php:44 king_page_badges.php:56 king_page_badges.php:68
+#: king_page_badges.php:80 king_page_badges.php:92
+msgid "Min"
+msgstr ""
+
+#: king_page_badges.php:45 king_page_badges.php:57 king_page_badges.php:69
+#: king_page_badges.php:81 king_page_badges.php:93
+msgid "Max"
+msgstr ""
+
+#: king_page_badges.php:80 king_page_badges.php:81 king_page_hot.php:34
+#: template-parts/king-profile-header.php:150
+msgid "Comments"
+msgstr ""
+
+#: king_page_badges.php:92 king_page_badges.php:93
+#: template-parts/king-profile-header.php:141
+msgid "Likes"
+msgstr ""
+
+#: king_page_categories.php:17 king_page_categories_2.php:17
+#: user-dashboard.php:79
+msgid "Categories"
+msgstr ""
+
+#: king_page_categories.php:55 king_page_users.php:114 king_page_users_2.php:64
+#: template-parts/content-simple-post.php:21
+#: template-parts/content-templates/content-05.php:22
+#: template-parts/content-templates/content-06.php:22
+#: template-parts/content-templates/content-parts/content-thumb.php:21
+#: template-parts/king-featured-small.php:43
+#: template-parts/post-templates/single-image-template-1.php:19
+#: template-parts/post-templates/single-image-template-2.php:22
+#: template-parts/post-templates/single-post-template-1.php:56
+#: template-parts/post-templates/single-post-template-2.php:56
+#: template-parts/post-templates/single-post-template-3.php:64
+#: template-parts/post-templates/single-post-template-4.php:64
+#: template-parts/post-templates/single-post-template-5.php:71
+#: template-parts/post-templates/single-post-template-6.php:71
+#: template-parts/post-templates/single-video-template-1.php:20
+#: template-parts/post-templates/single-video-template-2.php:20
+#: template-parts/post-templates/single-video-template-3.php:19
+#: template-parts/single-image.php:56 template-parts/single-post.php:56
+#: template-parts/single-video.php:17
+msgid "Not Safe For Work"
+msgstr ""
+
+#: king_page_categories.php:56 king_page_users.php:115 king_page_users_2.php:65
+#: template-parts/content-simple-post.php:22
+#: template-parts/content-templates/content-05.php:23
+#: template-parts/content-templates/content-06.php:23
+#: template-parts/content-templates/content-parts/content-thumb.php:22
+#: template-parts/king-featured-small.php:44
+#: template-parts/post-templates/single-image-template-1.php:20
+#: template-parts/post-templates/single-image-template-2.php:23
+#: template-parts/post-templates/single-post-template-1.php:57
+#: template-parts/post-templates/single-post-template-2.php:57
+#: template-parts/post-templates/single-post-template-3.php:65
+#: template-parts/post-templates/single-post-template-4.php:65
+#: template-parts/post-templates/single-post-template-5.php:72
+#: template-parts/post-templates/single-post-template-6.php:72
+#: template-parts/post-templates/single-video-template-1.php:21
+#: template-parts/post-templates/single-video-template-2.php:21
+#: template-parts/post-templates/single-video-template-3.php:20
+#: template-parts/single-image.php:57 template-parts/single-post.php:57
+#: template-parts/single-video.php:18
+msgid "Click to view this post."
+msgstr ""
+
+#: king_page_categories.php:76
+msgid "No posts"
+msgstr ""
+
+#: king_page_hot.php:16 king_page_hot.php:25
+msgid "HOT!"
+msgstr ""
+
+#: king_page_hot.php:28
+msgid "Views"
+msgstr ""
+
+#: king_page_hot.php:31
+msgid "Votes"
+msgstr ""
+
+#: king_page_nsfw.php:16
+msgid "NSFW"
+msgstr ""
+
+#: king_page_reactions.php:16
+#: template-parts/post-templates/single-parts/single-boxes.php:37
+msgid "Reactions"
+msgstr ""
+
+#: king_page_trend.php:18
+msgid "Trending"
+msgstr ""
+
+#: king_page_users.php:62 king_page_users_2.php:101
+#: template-parts/king-profile-header.php:58
+#: template-parts/post-templates/single-parts/authorbox.php:30
+msgid "verified account"
+msgstr ""
+
+#: king_page_users.php:138 king_page_users_2.php:88
+msgid "has not posted yet."
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-edit-post.php:39 template-submit-image.php:42
+#: template-submit-news.php:57 template-submit-video.php:51
+msgid "Title is required."
+msgstr ""
+
+#: template-edit-post.php:41 template-submit-image.php:44
+#: template-submit-news.php:59 template-submit-video.php:53
+msgid "Title is too long."
+msgstr ""
+
+#: template-edit-post.php:46 template-submit-image.php:49
+#: template-submit-news.php:64 template-submit-video.php:58
+msgid "Content is required."
+msgstr ""
+
+#: template-edit-post.php:48 template-submit-image.php:51
+#: template-submit-news.php:66 template-submit-video.php:60
+msgid "Content is too long."
+msgstr ""
+
+#: template-edit-post.php:63 template-submit-video.php:65
+msgid "Media is required."
+msgstr ""
+
+#: template-edit-post.php:273 template-edit-post.php:275
+#: template-edit-post.php:277
+msgid "You do not have permission to edit this post !"
+msgstr ""
+
+#: template-edit-post.php:284 template-submit-image.php:148
+#: template-submit-news.php:223 template-submit-video.php:301
+msgid "Title"
+msgstr ""
+
+#: template-edit-post.php:308 template-submit-image.php:165
+#: template-submit-news.php:244 template-submit-video.php:321
+msgid "Select Category"
+msgstr ""
+
+#: template-edit-post.php:323 template-submit-image.php:250
+#: template-submit-news.php:267 template-submit-video.php:441
+msgid "Content"
+msgstr ""
+
+#: template-edit-post.php:360 template-submit-image.php:258
+#: template-submit-news.php:361 template-submit-video.php:449
+#: user-dashboard.php:84
+msgid "Tags"
+msgstr ""
+
+#: template-edit-post.php:363 template-submit-image.php:261
+#: template-submit-news.php:364 template-submit-video.php:452
+msgid "Separate each tag by comma. (tag1, tag2, tag3)"
+msgstr ""
+
+#: template-edit-post.php:385
+msgid "Update Post"
+msgstr ""
+
+#: template-edit-post.php:387
+msgid "Delete Post"
+msgstr ""
+
+#: template-login.php:58
+msgid "Incorrect username or password. Please try again."
+msgstr ""
+
+#: template-login.php:61 template-parts/king-header-login.php:21
+msgid "Your username"
+msgstr ""
+
+#: template-login.php:64 template-parts/king-header-login.php:24
+msgid "Your password"
+msgstr ""
+
+#: template-login.php:69 template-parts/king-header-login.php:29
+msgid "Remember me"
+msgstr ""
+
+#: template-login.php:73 template-parts/king-header-login.php:33
+msgid "Login"
+msgstr ""
+
+#: template-login.php:78
+#: template-parts/header-templates/header-parts/user.php:29
+msgid " Register "
+msgstr ""
+
+#: template-login.php:80
+msgid "Forgot password ?"
+msgstr ""
+
+#: template-login.php:84 template-register.php:278
+msgid "OR"
+msgstr ""
+
+#: template-login.php:86 template-login.php:89
+#: template-parts/king-header-login.php:42
+#: template-parts/king-header-login.php:45 template-register.php:280
+#: template-register.php:283
+msgid "Connect w/"
+msgstr ""
+
+#: template-login.php:89 template-register.php:283
+msgid "Google"
+msgstr ""
+
+#: template-messages.php:27
+msgid "Message is empty."
+msgstr ""
+
+#: template-messages.php:48
+msgid "Private Messages"
+msgstr ""
+
+#: template-messages.php:100
+msgid "Your message has been successfully sent"
+msgstr ""
+
+#: template-messages.php:105
+msgid "Send Private Message to - "
+msgstr ""
+
+#: template-messages.php:141
+msgid "Your inbox is empty"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:27
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:40
+#: template-parts/post-templates/single-image-template-1.php:97
+#: template-parts/post-templates/single-image-template-2.php:98
+#: template-parts/post-templates/single-post-template-1.php:131
+#: template-parts/post-templates/single-post-template-2.php:131
+#: template-parts/post-templates/single-post-template-3.php:134
+#: template-parts/post-templates/single-post-template-4.php:134
+#: template-parts/post-templates/single-post-template-5.php:141
+#: template-parts/post-templates/single-post-template-6.php:141
+#: template-parts/post-templates/single-video-template-1.php:128
+#: template-parts/post-templates/single-video-template-2.php:128
+#: template-parts/post-templates/single-video-template-3.php:129
+#: template-parts/single-image.php:91 template-parts/single-post.php:132
+#: template-parts/single-video.php:127
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: template-parts/content-profilecard.php:52
+#: template-parts/king-profile-header.php:165
+#: template-parts/king-profile-header.php:252
+#: template-parts/king-profile-header.php:257
+msgid "Following"
+msgstr ""
+
+#: template-parts/content-simple-post.php:39
+#: template-parts/content-templates/content-05.php:49
+#: template-parts/content-templates/content-06.php:49
+#: template-parts/content-templates/content-parts/content-thumb.php:48
+#: template-parts/king-featured-posts.php:82
+#: template-parts/post-templates/single-image-template-1.php:63
+#: template-parts/post-templates/single-image-template-2.php:64
+#: template-parts/post-templates/single-post-template-1.php:44
+#: template-parts/post-templates/single-post-template-2.php:44
+#: template-parts/post-templates/single-post-template-3.php:52
+#: template-parts/post-templates/single-post-template-4.php:52
+#: template-parts/post-templates/single-post-template-5.php:59
+#: template-parts/post-templates/single-post-template-6.php:59
+#: template-parts/post-templates/single-video-template-1.php:94
+#: template-parts/post-templates/single-video-template-2.php:94
+#: template-parts/post-templates/single-video-template-3.php:95
+#: template-parts/single-image.php:44 template-parts/single-post.php:44
+#: template-parts/single-video.php:93
+msgid "featured"
+msgstr ""
+
+#: template-parts/content-simple-post.php:42
+#: template-parts/content-templates/content-05.php:52
+#: template-parts/content-templates/content-06.php:52
+#: template-parts/content-templates/content-parts/content-thumb.php:51
+#: template-parts/king-featured-posts.php:85
+#: template-parts/post-templates/single-image-template-1.php:66
+#: template-parts/post-templates/single-image-template-2.php:67
+#: template-parts/post-templates/single-post-template-1.php:47
+#: template-parts/post-templates/single-post-template-2.php:47
+#: template-parts/post-templates/single-post-template-3.php:55
+#: template-parts/post-templates/single-post-template-4.php:55
+#: template-parts/post-templates/single-post-template-5.php:62
+#: template-parts/post-templates/single-post-template-6.php:62
+#: template-parts/post-templates/single-video-template-1.php:97
+#: template-parts/post-templates/single-video-template-2.php:97
+#: template-parts/post-templates/single-video-template-3.php:98
+#: template-parts/single-image.php:47 template-parts/single-post.php:47
+#: template-parts/single-video.php:96
+msgid "trending"
+msgstr ""
+
+#: template-parts/content-templates/content-05.php:40
+#: template-parts/content-templates/content-06.php:40
+#: template-parts/content-templates/content-parts/content-thumb.php:39
+msgid "Editors' Choice"
+msgstr ""
+
+#: template-parts/content-templates/content-05.php:55
+#: template-parts/content-templates/content-06.php:55
+#: template-parts/content-templates/content-parts/content-thumb.php:54
+msgid "sticky"
+msgstr ""
+
+#: template-parts/content-templates/content-parts/content-head.php:43
+#: template-submit-image.php:192 template-submit-image.php:225
+#: template-submit-news.php:316 template-submit-video.php:398
+#: template-submit-video.php:415
+msgid "Edit"
+msgstr ""
+
+#: template-parts/header-templates/header-parts/hmobile.php:22
+#: template-parts/header-templates/header-parts/search-v2.php:22
+#: template-parts/header-templates/header-parts/search.php:21
+msgid "Search …"
+msgstr ""
+
+#: template-parts/header-templates/header-parts/hmobile.php:24
+msgid "Search"
+msgstr ""
+
+#: template-parts/header-templates/header-parts/search-v2.php:24
+#: template-parts/header-templates/header-parts/search.php:23
+msgid "Search for:"
+msgstr ""
+
+#: template-parts/header-templates/header-parts/user.php:24
+#: template-parts/header-templates/header-parts/user.php:26
+#: template-register.php:274
+msgid " Login "
+msgstr ""
+
+#: template-parts/header-templates/header-parts/user.php:57
+msgid "My Settings"
+msgstr ""
+
+#: template-parts/header-templates/header-parts/user.php:59
+msgid "Inbox"
+msgstr ""
+
+#: template-parts/header-templates/header-parts/user.php:61
+msgid "My Dashboard"
+msgstr ""
+
+#: template-parts/header-templates/header-parts/user.php:64
+msgid "Admin Panel"
+msgstr ""
+
+#: template-parts/header-templates/header-parts/user.php:66
+msgid "Logout"
+msgstr ""
+
+#: template-parts/king-featured-video.php:16
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: template-parts/king-header-login.php:18
+msgid "Log In"
+msgstr ""
+
+#: template-parts/king-header-login.php:37
+msgid "Forgot password?"
+msgstr ""
+
+#: template-parts/king-header-login.php:37
+msgid "Don't have an account?"
+msgstr ""
+
+#: template-parts/king-header-login.php:37
+msgid "Sign Up"
+msgstr ""
+
+#: template-parts/king-header-login.php:42 template-register.php:280
+msgid " Facebook"
+msgstr ""
+
+#: template-parts/king-header-login.php:45
+msgid "Google+"
+msgstr ""
+
+#: template-parts/king-profile-header.php:249
+msgid "My Posts"
+msgstr ""
+
+#: template-parts/king-profile-header.php:250
+msgid "Liked"
+msgstr ""
+
+#: template-parts/king-profile-header.php:251
+msgid "My followers"
+msgstr ""
+
+#: template-parts/king-profile-header.php:254
+msgid "posts"
+msgstr ""
+
+#: template-parts/king-profile-header.php:255
+msgid "likes"
+msgstr ""
+
+#: template-parts/post-templates/single-image-template-1.php:57
+#: template-parts/post-templates/single-image-template-2.php:58
+#: template-parts/post-templates/single-post-template-1.php:38
+#: template-parts/post-templates/single-post-template-2.php:38
+#: template-parts/post-templates/single-post-template-3.php:46
+#: template-parts/post-templates/single-post-template-4.php:46
+#: template-parts/post-templates/single-post-template-5.php:53
+#: template-parts/post-templates/single-post-template-6.php:53
+#: template-parts/post-templates/single-video-template-1.php:88
+#: template-parts/post-templates/single-video-template-2.php:88
+#: template-parts/post-templates/single-video-template-3.php:89
+#: template-parts/single-image.php:38 template-parts/single-post.php:38
+#: template-parts/single-video.php:87
+msgid "Please "
+msgstr ""
+
+#: template-parts/post-templates/single-image-template-1.php:57
+#: template-parts/post-templates/single-image-template-2.php:58
+#: template-parts/post-templates/single-post-template-1.php:38
+#: template-parts/post-templates/single-post-template-2.php:38
+#: template-parts/post-templates/single-post-template-3.php:46
+#: template-parts/post-templates/single-post-template-4.php:46
+#: template-parts/post-templates/single-post-template-5.php:53
+#: template-parts/post-templates/single-post-template-6.php:53
+#: template-parts/post-templates/single-video-template-1.php:88
+#: template-parts/post-templates/single-video-template-2.php:88
+#: template-parts/post-templates/single-video-template-3.php:89
+#: template-parts/single-image.php:38 template-parts/single-post.php:38
+#: template-parts/single-video.php:87
+msgid "log in "
+msgstr ""
+
+#: template-parts/post-templates/single-image-template-1.php:57
+#: template-parts/post-templates/single-image-template-2.php:58
+#: template-parts/post-templates/single-post-template-1.php:38
+#: template-parts/post-templates/single-post-template-2.php:38
+#: template-parts/post-templates/single-post-template-3.php:46
+#: template-parts/post-templates/single-post-template-4.php:46
+#: template-parts/post-templates/single-post-template-5.php:53
+#: template-parts/post-templates/single-post-template-6.php:53
+#: template-parts/post-templates/single-video-template-1.php:88
+#: template-parts/post-templates/single-video-template-2.php:88
+#: template-parts/post-templates/single-video-template-3.php:89
+#: template-parts/single-image.php:38 template-parts/single-post.php:38
+#: template-parts/single-video.php:87
+msgid " or "
+msgstr ""
+
+#: template-parts/post-templates/single-image-template-1.php:57
+#: template-parts/post-templates/single-image-template-2.php:58
+#: template-parts/post-templates/single-post-template-1.php:38
+#: template-parts/post-templates/single-post-template-2.php:38
+#: template-parts/post-templates/single-post-template-3.php:46
+#: template-parts/post-templates/single-post-template-4.php:46
+#: template-parts/post-templates/single-post-template-5.php:53
+#: template-parts/post-templates/single-post-template-6.php:53
+#: template-parts/post-templates/single-video-template-1.php:88
+#: template-parts/post-templates/single-video-template-2.php:88
+#: template-parts/post-templates/single-video-template-3.php:89
+#: template-parts/single-image.php:38 template-parts/single-post.php:38
+#: template-parts/single-video.php:87
+msgid " register "
+msgstr ""
+
+#: template-parts/post-templates/single-image-template-1.php:57
+#: template-parts/post-templates/single-image-template-2.php:58
+#: template-parts/post-templates/single-post-template-1.php:38
+#: template-parts/post-templates/single-post-template-2.php:38
+#: template-parts/post-templates/single-post-template-3.php:46
+#: template-parts/post-templates/single-post-template-4.php:46
+#: template-parts/post-templates/single-post-template-5.php:53
+#: template-parts/post-templates/single-post-template-6.php:53
+#: template-parts/post-templates/single-video-template-1.php:88
+#: template-parts/post-templates/single-video-template-2.php:88
+#: template-parts/post-templates/single-video-template-3.php:89
+#: template-parts/single-image.php:38 template-parts/single-post.php:38
+#: template-parts/single-video.php:87
+msgid " to like posts. "
+msgstr ""
+
+#: template-parts/post-templates/single-image-template-1.php:130
+#: template-parts/post-templates/single-image-template-2.php:133
+#: template-parts/single-image.php:127
+msgid "This Image post will be checked and approved shortly."
+msgstr ""
+
+#: template-parts/post-templates/single-parts/gallery.php:32
+msgid "by "
+msgstr ""
+
+#: template-parts/post-templates/single-parts/share.php:48
+msgid "shares"
+msgstr ""
+
+#: template-parts/post-templates/single-parts/single-boxes.php:72
+msgid "This post saved as draft, you can see and edit all saved post drafts"
+msgstr ""
+
+#: template-parts/post-templates/single-parts/single-boxes.php:72
+msgid " HERE."
+msgstr ""
+
+#: template-parts/post-templates/single-parts/single-gallery.php:69
+msgid "View Gallery"
+msgstr ""
+
+#: template-parts/post-templates/single-post-template-1.php:169
+#: template-parts/post-templates/single-post-template-2.php:169
+#: template-parts/post-templates/single-post-template-3.php:172
+#: template-parts/post-templates/single-post-template-4.php:172
+#: template-parts/post-templates/single-post-template-5.php:178
+#: template-parts/post-templates/single-post-template-6.php:178
+#: template-parts/single-none.php:38 template-parts/single-post.php:166
+msgid "This News post will be checked and approved shortly."
+msgstr ""
+
+#: template-parts/post-templates/single-video-template-1.php:58
+#: template-parts/post-templates/single-video-template-2.php:58
+#: template-parts/post-templates/single-video-template-3.php:58
+#: template-parts/single-video.php:55
+msgid "You can skip ad in"
+msgstr ""
+
+#: template-parts/post-templates/single-video-template-1.php:59
+#: template-parts/post-templates/single-video-template-2.php:59
+#: template-parts/post-templates/single-video-template-3.php:59
+#: template-parts/single-video.php:56
+msgid "Skip Ad"
+msgstr ""
+
+#: template-parts/post-templates/single-video-template-1.php:161
+#: template-parts/post-templates/single-video-template-2.php:161
+#: template-parts/post-templates/single-video-template-3.php:162
+#: template-parts/single-video.php:160
+msgid "This Video post will be checked and approved shortly."
+msgstr ""
+
+#: template-parts/single-none.php:23
+msgid "You do not have permission to see this post."
+msgstr ""
+
+#: template-register.php:56
+msgid "Username is required."
+msgstr ""
+
+#: template-register.php:58
+msgid "Sorry, username must be 6 characters or more."
+msgstr ""
+
+#: template-register.php:60 template-register.php:64
+msgid "Sorry, the username you provided is invalid."
+msgstr ""
+
+#: template-register.php:62
+msgid "Sorry, that username already exists."
+msgstr ""
+
+#: template-register.php:69
+msgid "Please check the the captcha form"
+msgstr ""
+
+#: template-register.php:78
+msgid "You are spammer"
+msgstr ""
+
+#: template-register.php:84
+msgid "Password is required."
+msgstr ""
+
+#: template-register.php:86 user-settings.php:41
+msgid "Sorry, password must be 6 characters or more."
+msgstr ""
+
+#: template-register.php:88 user-settings.php:43
+msgid "Password and repeat password fields must match."
+msgstr ""
+
+#: template-register.php:110
+msgid "This email source not allowed for registration !"
+msgstr ""
+
+#: template-register.php:117
+msgid "You must enter a valid email address."
+msgstr ""
+
+#: template-register.php:119
+msgid "Sorry, that email address is already in use."
+msgstr ""
+
+#: template-register.php:125
+msgid "You must agree to our terms &amp; conditions to sign up."
+msgstr ""
+
+#: template-register.php:190
+msgid "Registration is disabled in this site !"
+msgstr ""
+
+#: template-register.php:202
+msgid "Account was successfully created. You can login now !"
+msgstr ""
+
+#: template-register.php:213 user-settings.php:123
+msgid "Username"
+msgstr ""
+
+#: template-register.php:219 user-settings.php:144
+#: woocommerce/single-product-reviews.php:70
+msgid "Email"
+msgstr ""
+
+#: template-register.php:226 user-settings.php:128 user-settings.php:129
+msgid "Password"
+msgstr ""
+
+#: template-register.php:232 user-settings.php:136 user-settings.php:137
+msgid "Repeat password"
+msgstr ""
+
+#: template-register.php:240
+msgid "Age"
+msgstr ""
+
+#: template-register.php:249
+msgid "I accept"
+msgstr ""
+
+#: template-register.php:249
+msgid " terms and conditions"
+msgstr ""
+
+#: template-register.php:269 template-submit-image.php:270
+#: template-submit-image.php:272 template-submit-news.php:393
+#: template-submit-news.php:395 template-submit-video.php:461
+#: template-submit-video.php:463
+msgid "Loading..."
+msgstr ""
+
+#: template-reset.php:25
+msgid "Enviamos um email para você."
+msgstr ""
+
+#: template-reset.php:28
+msgid "You must enter a valid and existing email address or username."
+msgstr ""
+
+#: template-reset.php:32
+msgid "Username or email address"
+msgstr ""
+
+#: template-reset.php:36
+msgid "Reset password"
+msgstr ""
+
+#: template-submit-image.php:55 template-submit-news.php:71
+msgid "Thumbnail is required."
+msgstr ""
+
+#: template-submit-image.php:116
+msgid "Submit Image"
+msgstr ""
+
+#: template-submit-image.php:122 template-submit-news.php:200
+#: template-submit-video.php:278
+msgid "You do not have permission to create a post !"
+msgstr ""
+
+#: template-submit-image.php:129 template-submit-image.php:132
+#: template-submit-image.php:134 template-submit-news.php:205
+#: template-submit-news.php:208 template-submit-news.php:210
+#: template-submit-video.php:284 template-submit-video.php:286
+#: template-submit-video.php:288
+msgid "You do not have permission to view this page!"
+msgstr ""
+
+#: template-submit-image.php:193 template-submit-image.php:226
+#: template-submit-news.php:316 template-submit-video.php:399
+#: template-submit-video.php:416
+msgid "Remove"
+msgstr ""
+
+#: template-submit-image.php:197 template-submit-image.php:230
+msgid "Select Image"
+msgstr ""
+
+#: template-submit-image.php:211 template-submit-news.php:283
+msgid "Drag to reorder"
+msgstr ""
+
+#: template-submit-image.php:214 template-submit-news.php:286
+msgid "Add row"
+msgstr ""
+
+#: template-submit-image.php:215 template-submit-news.php:287
+msgid "Remove row"
+msgstr ""
+
+#: template-submit-image.php:242
+msgid "Add New"
+msgstr ""
+
+#: template-submit-image.php:266 template-submit-news.php:389
+#: template-submit-video.php:457
+msgid "This post is Not Safe for Work"
+msgstr ""
+
+#: template-submit-image.php:270 template-submit-news.php:393
+#: template-submit-video.php:461
+msgid "Submit Post"
+msgstr ""
+
+#: template-submit-image.php:272 template-submit-news.php:395
+#: template-submit-video.php:463
+msgid "Save"
+msgstr ""
+
+#: template-submit-news.php:38
+msgid "This image is not valid"
+msgstr ""
+
+#: template-submit-news.php:194
+msgid "Submit News"
+msgstr ""
+
+#: template-submit-news.php:294
+msgid "list item title"
+msgstr ""
+
+#: template-submit-news.php:320
+msgid "Add Image"
+msgstr ""
+
+#: template-submit-news.php:330
+msgid "Media URL"
+msgstr ""
+
+#: template-submit-news.php:347
+msgid "List item content"
+msgstr ""
+
+#: template-submit-news.php:354
+msgid "New item"
+msgstr ""
+
+#: template-submit-news.php:373
+msgid "Select Thumbnail"
+msgstr ""
+
+#: template-submit-video.php:273
+msgid "Submit Video"
+msgstr ""
+
+#: template-submit-video.php:343
+msgid "Media"
+msgstr ""
+
+#: template-submit-video.php:357
+msgid "UPLOAD"
+msgstr ""
+
+#: template-submit-video.php:357
+msgid "URL"
+msgstr ""
+
+#: template-submit-video.php:395
+msgid "size:"
+msgstr ""
+
+#: template-submit-video.php:403
+msgid "Upload Media"
+msgstr ""
+
+#: template-submit-video.php:421
+msgid "Upload Thumbnail"
+msgstr ""
+
+#: template-submit-video.php:428
+msgid "Embed Code"
+msgstr ""
+
+#: user-dashboard.php:64
+msgid " / Following Categories"
+msgstr ""
+
+#: user-dashboard.php:66
+msgid " / Following Tags"
+msgstr ""
+
+#: user-dashboard.php:68
+msgid " / Following Users Posts"
+msgstr ""
+
+#: user-dashboard.php:75
+msgid "Following Users"
+msgstr ""
+
+#: user-dashboard.php:144
+msgid "you're not following yet"
+msgstr ""
+
+#: user-followers.php:64 user-following.php:62
+msgid "not following anyone yet"
+msgstr ""
+
+#: user-profile.php:33
+msgid "Published"
+msgstr ""
+
+#: user-profile.php:36
+msgid "Pending"
+msgstr ""
+
+#: user-profile.php:40
+msgid "Draft"
+msgstr ""
+
+#: user-profile.php:115 user-settings.php:211
+msgid "About"
+msgstr ""
+
+#: user-settings.php:97
+msgid "This e-mail is already in use, please use another one."
+msgstr ""
+
+#: user-settings.php:106
+msgid "Saving Data"
+msgstr ""
+
+#: user-settings.php:119
+msgid "Edit Profile"
+msgstr ""
+
+#: user-settings.php:152
+msgid "First Name"
+msgstr ""
+
+#: user-settings.php:157
+msgid "Last Name"
+msgstr ""
+
+#: user-settings.php:177
+msgid "facebook"
+msgstr ""
+
+#: user-settings.php:182
+msgid "twitter"
+msgstr ""
+
+#: user-settings.php:187
+msgid "google"
+msgstr ""
+
+#: user-settings.php:192
+msgid "instagram"
+msgstr ""
+
+#: user-settings.php:197
+msgid "pinterest"
+msgstr ""
+
+#: user-settings.php:202
+msgid "linkedin"
+msgstr ""
+
+#: user-settings.php:206
+msgid "Url"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:49
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:62
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "King"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://kingthemes.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WordPress Viral Magazine Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RedKings"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/RedKings"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "badges"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "categories"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "categories 2"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "hot"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "nsfw"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "reactions"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "trend"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "users"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "users v2"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Without Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "With Sidebar"
+msgstr ""

@@ -1,0 +1,1 @@
+(function(a){a(document).ready(function(){var b=loadingad.second,d=setInterval(function(){b--;if(0<b){var c="You can skip ad in "+b+"s";a("#notice").text(c)}else a("#notice").hide(),a("#hidead").show(),clearInterval(d)},1E3);a("#hidead").click(function(){a(".king-loading-ad").hide()})})})(jQuery);

@@ -1,0 +1,66 @@
+.king-header
+{height: 80px !important;}
+.site-branding .king-logo img
+{height: 70px !important;}
+.site-branding .king-logo img,
+.user-header-noavatar
+{margin-top:10px !important;}
+.user-header-noavatar{background-color: #687686;}
+.king-login-buttons a{margin-top:10px;background: #3a5a7d;}
+.site-footer{padding-top: 10px !important;}
+
+.barra{width:100%;height: 5px;background:rgba(0,0,0,0.7);float:left;margin-top:-5px;}
+.progresso{width:50%;height: 5px;background:#52b8a6;}
+.box-home{text-decoration:none;background-size:cover;display: flex;align-items: center;justify-content: center;width: 100%;height: 300px;background-color: #000;border-radius: 5px;text-align:center;}
+.box-home:hover{text-decoration:none;opacity: 0.7;}
+
+.btn-conteudo-completo{
+	width: 166px;
+	height: 50px;
+	display: block;
+	background:url('assets/bt_ver_conteudo_completo.png');
+}
+
+.btn-conteudo-completo:hover{background:url('assets/bt_ver_conteudo_completo_hover.png');}
+
+.site-footer{margin-top:0;}
+
+#content{padding-bottom: 50px;}
+#concluido{float:right;}
+.entry-header{text-align: left;}
+
+.btn-proximo-conteudo{
+	border: 2px solid #57b8a6;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    color: #57b8a6;
+    margin: 30px 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-proximo-conteudo:hover{text-decoration: none;}
+
+.loading{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top:50%;
+	right: 50%;
+	margin-right: -25px;
+	margin-top:-25px;
+	background:url('assets/loading.gif');
+	
+	background-size: 50px 50px;
+	z-index: 999999;
+	display: none;
+}
+
+@media (max-width: 450px) {
+#concluido{float:none !important;}
+.entry-header{text-align: center !important;}
+
+	.header-trilha video{height: auto;width: 100%;}
+
+}

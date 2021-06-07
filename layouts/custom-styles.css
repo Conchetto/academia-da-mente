@@ -1,0 +1,105 @@
+/* Typography
+--------------------------*/
+/* ------CustomCSS------ */
+.featured-posts .featured-content .featured-meta,
+.editors-badge,
+.featured i, .trending i,
+.single-post .post .news-entry-format,
+.single-post .post .entry-footer
+{display:none !important;}
+
+.single-post .post{padding:20px;}
+
+.king-featured .owl-stage .featured-title{
+font-size: 30px;
+text-transform: uppercase;
+}
+
+.site-branding .king-logo img{
+height:40px !important;
+margin-top:10px;
+}
+
+.posts-navigation a{
+background:#52b8a6;
+color:#fff;
+}
+
+.king-editorschoice .owl-stage {transform:inherit !important}
+.king-editorschoice{min-height: auto !important;}
+
+.site-content {
+	direction: inherit !important;
+}
+
+.page-top-header{background:#57b8a6;}
+
+/* ------body------ */
+body {
+	
+			font-family: 'Lato', sans-serif;
+	
+}
+/* ------header------ */
+.king-header, .king-search-top .active {
+	background-color:#1c2938;
+}
+.main-navigation, .main-navigation ul ul, .main-navigation ul ul ul {
+	background-color:#17222f;
+}
+	
+.king-submit-open, .king-submit-buttons li a i {
+	color:#ffffff;
+}
+.editorschoice-post {
+	height:100px;
+}
+.king-top-header {
+	background-color: #50c1b4;
+	background: -moz-linear-gradient(left, #50c1b4 0%, #50c1b4 100%);
+	background: -webkit-linear-gradient(left, #50c1b4 0%, #50c1b4 100%);
+	background: linear-gradient(to right, #50c1b4 0%, #50c1b4 100%);
+}
+.king-top-header-menu ul ul {
+	background-color: #50c1b4;
+}
+.king-top-header-menu a {
+	color: #111111;
+}
+.king-top-header-menu .menu-item-has-children:after {
+	color: #111111;
+}
+.king-top-header-icons a {
+	color: #111111;
+	border-color: #111111;
+}
+
+/* ------footer------ */
+.site-footer {
+	background-color:#17222f;	
+	color:#ffffff;	
+}
+/* ------sidebar------ */
+
+/* ------PostPage------ */
+.site-content {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.king-cat-list ul {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align:right;
+}
+.king-social-share, 
+.single-format-image .share-top .is_stuck,
+.share-top, 
+.post-like,
+.king-featured,
+.content-right-top {
+	direction: ltr;
+}
+
+article.post {
+	text-align:right!important;
+}

@@ -1,0 +1,2 @@
+(function(a){if("undefined"!=typeof localStorage){a(window).load(function(){JSON.parse(localStorage.getItem("king-night"))&&(document.documentElement.classList.add("king-night"),document.getElementById("king-night").checked=!0);a("#king-night").change(function(){if(a(this).is(":checked")){document.documentElement.classList.add("king-night");var b=document.getElementById("king-night");localStorage.setItem("king-night",b.checked)}else document.documentElement.classList.remove("king-night"),localStorage.removeItem("king-night")})});
+try{a(window).load()}catch(b){}}})(jQuery);
