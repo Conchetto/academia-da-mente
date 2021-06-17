@@ -87,7 +87,7 @@ use PHPMailer\PHPMailer\Exception;
 			$to = $newUser['email'];
 			// wp_mail( $to, $subject, $message );
 
-			sendEmail($to, $newUser['name']);
+			// sendEmail($to, $newUser['name']);
 
 			if ($user_id > 0) {
 				$update_ = "Update wp_users
