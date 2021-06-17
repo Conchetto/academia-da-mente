@@ -24,9 +24,6 @@ use PHPMailer\PHPMailer\Exception;
 	}
 
 
-
-
-
 	$action = (!empty($_GET['action']) && isset($_GET['action'])) ? $_GET['action'] : 0;
 	$content = (!empty($_GET['content']) && isset($_GET['content'])) ? $_GET['content'] : 0;
 
@@ -85,14 +82,12 @@ use PHPMailer\PHPMailer\Exception;
 				// die();
 
 		  	$query = "insert into wp_users_vouchers (id_user,voucher,cpf) values ('{$user_id}', '{$newUser['voucher']}','{$cpf}')";
-
-		  
 			$wpdb->query($query);
 
 			$to = $newUser['email'];
 			// wp_mail( $to, $subject, $message );
 
-			sendEmail($to, $newUser['name']);
+			// sendEmail($to, $newUser['name']);
 
 			if ($user_id > 0) {
 				$update_ = "Update wp_users
