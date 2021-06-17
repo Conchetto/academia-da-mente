@@ -72,7 +72,7 @@ get_header();
 									<input required type="text" style="text-transform: lowercase !important;" name="voucher" id="voucher" class="bpinput" placeholder="<?php esc_html_e( 'Voucher', 'king' ); ?>" maxlength="50"/>
 								</div>
 								
-								<input type="hidden" id="cpfID" mame="cpfID">
+								<input type="hidden" id="cpfID" name="cpfID">
 								
 								<div class="king-form-group">
 									<input required type="text" name="email" id="email" class="bpinput" placeholder="<?php esc_html_e( 'E-mail', 'king' ); ?>" maxlength="50"/>

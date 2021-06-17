@@ -1,6 +1,13 @@
 <?php
 ini_set('display_errors','On');
 ini_set('error_reporting', E_ALL );
+
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 	
 	// set the array for testing the local environment
 	$whitelist = array( '127.0.0.1', '::1' );
@@ -16,12 +23,8 @@ ini_set('error_reporting', E_ALL );
 
 	}
 
-	use PHPMailer\PHPMailer\PHPMailer;
-	use PHPMailer\PHPMailer\Exception;
 
-	// require 'PHPMailer/src/Exception.php';
-	// require 'PHPMailer/src/PHPMailer.php';
-	// require 'PHPMailer/src/SMTP.php';
+
 
 
 	$action = (!empty($_GET['action']) && isset($_GET['action'])) ? $_GET['action'] : 0;
@@ -71,12 +74,20 @@ ini_set('error_reporting', E_ALL );
 
 			$cpf = preg_replace("/[^0-9]/", "", $newUser['cpf']);
 
-			$update = "update cpfs set id_user = {$user_id} where id =  {$newUser['cpfID']}";
-			$wpdb->query($update);
+			if($newUser['cpfID'] != ''){
+				$update = "update cpfs set id_user = '{$user_id}'' where id =  '{$newUser['cpfID']}'";
+				$wpdb->query($update);	
+			}
 
 
 			// $select = "select id from conteudo_concluido where id_user = '{$_POST['offset']['id_user']}' and id_conteudo = '{$_POST['offset']['id_conteudo']}'";
-		  	$query = "insert into wp_users_vouchers (id_user, voucher,cpf) values ('{$user_id}', '{$newUser['voucher']}','{$cpf}')";
+
+			 //  	var_dump($user_id);
+				// die();
+
+		  	$query = "insert into wp_users_vouchers (id_user,voucher,cpf) values ('{$user_id}', '{$newUser['voucher']}','{$cpf}')";
+
+		  
 			$wpdb->query($query);
 
 			$to = $newUser['email'];
