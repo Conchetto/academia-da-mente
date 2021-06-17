@@ -66,7 +66,6 @@ use PHPMailer\PHPMailer\Exception;
 
 		global $wpdb;
 
-		if ( ! username_exists( $newUser['email'] ) ) {
 			$user_id = wp_create_user( $newUser['email'], $newUser['password'], $newUser['email'] );
 			$user = new WP_User( $user_id );
 			$user->set_role( 'contributor' );
@@ -121,11 +120,6 @@ use PHPMailer\PHPMailer\Exception;
 				print "nao cadastrou";
 			}
 
-		}else{
-			print "nao entrou";
-		}
-
-		// die();
 	}
 
 	function checkEmail($content) {
