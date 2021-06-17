@@ -117,6 +117,9 @@ use PHPMailer\PHPMailer\Exception;
 				$trilhas = (get_site_url());
 				echo $trilhas;
 			}
+			else{
+				print "nao cadastrou";
+			}
 
 		}
 
