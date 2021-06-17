@@ -8,7 +8,7 @@ ini_set('error_reporting', E_ALL );
 	// check if the server is in the array
 	if ( in_array( $_SERVER['REMOTE_ADDR'], $whitelist ) ) {
 		
-		include_once($_SERVER['DOCUMENT_ROOT'].'/king/wp-load.php' );
+		include_once($_SERVER['DOCUMENT_ROOT'].'/academia_mente/wp-load.php' );
 		
 		
 	}else{
@@ -19,9 +19,9 @@ ini_set('error_reporting', E_ALL );
 	use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\Exception;
 
-	require 'PHPMailer/src/Exception.php';
-	require 'PHPMailer/src/PHPMailer.php';
-	require 'PHPMailer/src/SMTP.php';
+	// require 'PHPMailer/src/Exception.php';
+	// require 'PHPMailer/src/PHPMailer.php';
+	// require 'PHPMailer/src/SMTP.php';
 
 
 	$action = (!empty($_GET['action']) && isset($_GET['action'])) ? $_GET['action'] : 0;
