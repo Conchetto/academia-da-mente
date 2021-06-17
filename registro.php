@@ -202,7 +202,7 @@ Termos de Consentimento: </label>
 		};
 
 		jQuery.get("<?php print content_url('/themes/king/action-registro.php') ?>", {action: 'addUser', content:user},  function(resultado){
-				window.location.href = resultado;
+				// window.location.href = resultado;
 		})
 
 
