@@ -34,7 +34,7 @@ function cpfUser(){
 
 	global $wpdb;
   	$select = "select id from cpfs where id_user = '{$id}'";
-	$consulta = $wpdb->get_results($select);
+		$consulta = $wpdb->get_results($select);
 	
 	if($consulta){return true;}else{return false;}
 

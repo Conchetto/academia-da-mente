@@ -71,7 +71,7 @@ use PHPMailer\PHPMailer\Exception;
 			$cpf = preg_replace("/[^0-9]/", "", $newUser['cpf']);
 
 			if($newUser['cpfID'] != ''){
-				$update = "update cpfs set id_user = '{$user_id}'' where id =  '{$newUser['cpfID']}'";
+				$update = "update cpfs set id_user = '{$user_id}' where id =  '{$newUser['cpfID']}'";
 				$wpdb->query($update);	
 			}
 

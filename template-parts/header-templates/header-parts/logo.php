@@ -18,12 +18,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 <style>
 	.site-header{background:#141e29 !important;padding-bottom: 10px;}
 </style>
-<div style="display:none !important;margin-top:15px;background:#141e29">
+<div style="display:inline-block;margin-top:15px;background:#141e29">
 	<?php 
 		$corporate = logoCorporate();
-		if($corporate = 'abc'):
+		if($corporate):
 	?>
-	<img src="http://academia.clinicaecare.com.br/wp-content/uploads/2021/03/logo-sulamerica.png" alt="" style="display: block;">
+	<img src="https://academia.clinicaecare.com.br/wp-content/uploads/2021/03/logo-sulamerica.png" alt="" style="display: block;">
 	<?php endif;?>
 </div>
 
